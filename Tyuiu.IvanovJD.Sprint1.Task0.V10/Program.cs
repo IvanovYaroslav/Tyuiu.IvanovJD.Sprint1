@@ -17,7 +17,7 @@ namespace Tyuiu.IvanovJD.Sprint1.Task0.V10
             Console.Title = "Спринт №1 | Выполнил: Иванов Я. Д. | ПКТБ-23-2";
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* Спринт #0                                                                *");
-            Console.WriteLine("* Тема: Создание итогового решения по спринту                              *");
+            Console.WriteLine("* Тема: Создание решения выражения                                         *");
             Console.WriteLine("* Задания #0                                                               *");
             Console.WriteLine("* Вариант #10                                                              *");
             Console.WriteLine("* Выполнил: Иванов Ярослав Дмитриевич  | ПКТБ-23-2                         *");
