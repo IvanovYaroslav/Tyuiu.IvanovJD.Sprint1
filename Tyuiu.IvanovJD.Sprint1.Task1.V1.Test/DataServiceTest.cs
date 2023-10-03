@@ -1,8 +1,8 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
-using Tyuiu.IvanovJD.Sprint1.Task0.V10.Lib;
+using Tyuiu.IvanovJD.Sprint1.Task1.V1.Lib;
 
-namespace Tyuiu.IvanovJD.Sprint1.Task0.V10.Test
+namespace Tyuiu.IvanovJD.Sprint1.Task1.V1.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -11,7 +11,10 @@ namespace Tyuiu.IvanovJD.Sprint1.Task0.V10.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            var res = ds.Calculate();
+            double x = 2.0;
+            double y = 3.0;
+            double a = 4.0;
+            var res = ds.Calculate(x, y, a);
             Assert.AreEqual(res, res);
         }
     }
