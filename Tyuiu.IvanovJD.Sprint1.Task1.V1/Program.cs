@@ -46,6 +46,6 @@ namespace Tyuiu.IvanovJD.Sprint1.Task1.V1
             Console.WriteLine(ds.Calculate(x,y,a));
             Console.ReadLine();
         }
-    }
+    
     }
 }
